@@ -3,12 +3,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
 from datetime import datetime
+from importlib import import_module
 from pathlib import Path
 
-from Windfarm_utilsv3 import set_wt, get_site, set_wake_model, calc_aep
+from Windfarm_utils import set_wt, get_site, set_wake_model, calc_aep
 from RandomSearch import run_randomsearch
-from SmartStart2StepV4 import run_two_step_from_layout
-from SmartstartgradientV2 import run_gradient_from_layout
+from GradientBasedAlgorithm import run_gradient_from_layout
+
+run_two_step_from_layout = import_module("2StepAlgorithm").run_two_step_from_layout
 
 
 # ==================================================
@@ -36,7 +38,7 @@ wake_models = ['NOJ']
 # wake_models = ['BastankhahGaussian']
 # wake_models = ['NOJ', 'BastankhahGaussian']
 
-results_dir = Path("Results_CSV_PL_Comparison_test")
+results_dir = Path("CSV_PL_Comparison_test")
 seeds = [1]
 plot_layout_seed = seeds[0]
 make_plots = False

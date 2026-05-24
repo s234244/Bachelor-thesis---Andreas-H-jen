@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 base_dir = Path(__file__).resolve().parent.parent
-csv_dir = base_dir / "Results_CSV_SS"
+csv_dir = base_dir / "CSV_SS"
 table_random_pcts = [0, 3, 5, 10, 20, 50]
 
 

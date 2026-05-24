@@ -7,7 +7,7 @@ from matplotlib.lines import Line2D
 
 
 base_dir = Path(__file__).resolve().parent.parent
-csv_dir = base_dir / "Results_RS_CSV"
+csv_dir = base_dir / "CSV_RS"
 
 
 def latest_csv(pattern):

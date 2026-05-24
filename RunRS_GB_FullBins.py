@@ -3,9 +3,9 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 
-from Windfarm_utilsv3 import set_wt, get_site, set_wake_model, calc_aep
+from Windfarm_utils import set_wt, get_site, set_wake_model, calc_aep
 from RandomSearch import run_randomsearch
-from SmartstartgradientV2 import run_gradient_from_layout
+from GradientBasedAlgorithm import run_gradient_from_layout
 
 
 # ==================================================

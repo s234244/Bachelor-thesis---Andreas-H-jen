@@ -10,7 +10,7 @@ from topfarm.constraint_components.boundary import XYBoundaryConstraint
 from topfarm.constraint_components.spacing import SpacingConstraint
 from py_wake.utils.gradients import autograd as pw_autograd
 
-from Windfarm_utilsv3 import calc_aep
+from Windfarm_utils import calc_aep
 
 
 def run_randomsearch(

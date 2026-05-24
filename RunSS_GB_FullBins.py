@@ -3,9 +3,9 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 
-from Windfarm_utilsv3 import set_wt, get_site, set_wake_model, calc_aep
-from SmartstartV2 import run_smartstart
-from SmartstartgradientV2 import run_gradient_from_layout
+from Windfarm_utils import set_wt, get_site, set_wake_model, calc_aep
+from SmartStart import run_smartstart
+from GradientBasedAlgorithm import run_gradient_from_layout
 
 
 # ==================================================
@@ -35,7 +35,7 @@ random_pct = 10
 wake_models = ["NOJ"]
 seeds = [1]
 
-results_dir = Path("Results_CSV_SS_GB_FullBins")
+results_dir = Path("CSV_SS_GB_FullBins")
 save_layouts = True
 
 

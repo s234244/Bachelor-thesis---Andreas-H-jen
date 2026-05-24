@@ -5,7 +5,7 @@ from matplotlib.patches import Circle
 from datetime import datetime
 from pathlib import Path
 
-from Windfarm_utilsv3 import set_wt, get_site, set_wake_model, calc_aep
+from Windfarm_utils import set_wt, get_site, set_wake_model, calc_aep
 from RandomSearch import run_randomsearch
 
 # ==================================================
@@ -42,7 +42,7 @@ staged_step_schedules = [
 ]
 
 wake_models = ['NOJ']
-results_dir = Path("Results_RS_CSV")
+results_dir = Path("CSV_RS")
 seeds = [1, 2, 3]
 make_plots = False
 

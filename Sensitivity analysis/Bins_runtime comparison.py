@@ -1,16 +1,18 @@
 import os
 import time
 from datetime import datetime
+from importlib import import_module
 
 import numpy as np
 import pandas as pd
 
-from Windfarm_utilsv3 import set_wt, get_site, set_wake_model, calc_aep
-from SmartstartV2 import run_smartstart
-from SmartStart2StepV4 import run_two_step_from_layout
+from Windfarm_utils import set_wt, get_site, set_wake_model, calc_aep
+from SmartStart import run_smartstart
+
+run_two_step_from_layout = import_module("2StepAlgorithm").run_two_step_from_layout
 
 
-results_dir = "Results_CSV_bins"
+results_dir = "CSV_bins"
 os.makedirs(results_dir, exist_ok=True)
 
 seeds = [1, 2, 3]

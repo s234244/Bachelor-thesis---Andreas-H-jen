@@ -3,8 +3,8 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 
-from Windfarm_utilsv3 import set_wt, get_site, set_wake_model, calc_aep
-from SmartstartgradientV2 import run_gradient_from_layout
+from Windfarm_utils import set_wt, get_site, set_wake_model, calc_aep
+from GradientBasedAlgorithm import run_gradient_from_layout
 
 
 # ==================================================
@@ -22,11 +22,11 @@ boundary_pad = 400
 x_points = 20
 y_points = 20
 
-highres_eval_path = Path("Results_CSV_PL_Comparison/final_layouts_highres_evaluation.csv")
+highres_eval_path = Path("CSV_PL_Comparison/final_layouts_highres_evaluation.csv")
 sources = [
     {
         "source_script": "ResultsSS",
-        "layout_source_path": Path("Results_CSV_PL_Comparison/results_ss_layouts_wd5deg_20260519_113744.csv"),
+        "layout_source_path": Path("CSV_PL_Comparison/results_ss_layouts_wd5deg_20260519_113744.csv"),
         "source_methods": [
             {"source_method": "SS", "layout_method": "SmartStart"},
             {"source_method": "SS--2S", "layout_method": "SS--2S"},
@@ -34,7 +34,7 @@ sources = [
     },
     {
         "source_script": "ResultsRS",
-        "layout_source_path": Path("Results_CSV_PL_Comparison/results_rs_layouts_wd5deg_20260519_121750.csv"),
+        "layout_source_path": Path("CSV_PL_Comparison/results_rs_layouts_wd5deg_20260519_121750.csv"),
         "source_methods": [
             {"source_method": "RS", "layout_method": "RS"},
             {"source_method": "RS--2S", "layout_method": "RS--2S"},

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 base_dir = Path(__file__).resolve().parent.parent
-csv_dir = base_dir / "Results_Gradient_CSV"
+csv_dir = base_dir / "CSV_Gradient"
 
 
 def latest_csv(pattern):

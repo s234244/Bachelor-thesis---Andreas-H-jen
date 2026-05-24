@@ -4,4 +4,8 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 .vscode/
+Literatur/
 
+Results_GB_FullBins/RunBest_GB_FullBins.py
+Results_GB_FullBins/RunRS_GB_FullBins.py
+Results_GB_FullBins/RunSS_GB_FullBins.py

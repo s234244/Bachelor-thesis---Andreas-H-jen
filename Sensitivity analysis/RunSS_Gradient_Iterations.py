@@ -3,9 +3,9 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 
-from Windfarm_utilsv3 import set_wt, get_site, set_wake_model, calc_aep
-from SmartstartV2 import run_smartstart
-from SmartstartgradientV2 import run_gradient_from_layout
+from Windfarm_utils import set_wt, get_site, set_wake_model, calc_aep
+from SmartStart import run_smartstart
+from GradientBasedAlgorithm import run_gradient_from_layout
 
 
 mean_ws = 9.6
@@ -20,7 +20,7 @@ boundary_pad = 400
 gradient_iterations_list = [10, 20, 50, 100, 200, 500]
 
 wake_models = ['NOJ']
-results_dir = Path("Results_Gradient_CSV")
+results_dir = Path("CSV_Gradient")
 seeds = [1, 2, 3]
 smartstart_random_pct = 10
 

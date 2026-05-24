@@ -1,0 +1,4 @@
+run_name,method,AEP [GWh],runtime_sec,using_site_bins
+72d_11s_bins,Baseline,701.8653557500002,2.7463738918304443,True
+72d_11s_bins,SmartStart,714.0662667435868,133.2497808933258,True
+72d_11s_bins,SS--2S,714.8099388041155,67879.68304538727,True

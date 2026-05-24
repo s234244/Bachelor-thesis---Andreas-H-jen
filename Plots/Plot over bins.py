@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 base_dir = Path(__file__).resolve().parent.parent
-csv_dir = base_dir / "Results_CSV_bins"
+csv_dir = base_dir / "CSV_bins"
 
 cases = [
     ("36wd_mean_ws", "10 deg wind direction bins x mean wind speed"),

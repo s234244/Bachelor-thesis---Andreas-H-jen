@@ -16,14 +16,14 @@ from matplotlib.lines import Line2D
 base_dir = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(base_dir))
 
-from Windfarm_utilsv3 import set_wt, get_site, set_wake_model, calc_aep
+from Windfarm_utils import set_wt, get_site, set_wake_model, calc_aep
 
 
 # ==================================================
 # SETTINGS
 # ==================================================
 
-csv_dir = base_dir / "Results_CSV_PL_Comparison"
+csv_dir = base_dir / "CSV_PL_Comparison"
 
 method_order = [
     "SS",
@@ -67,7 +67,7 @@ wind_arrow_plot_wd_deg = None  # None uses the most frequent Horns Rev 1 sector.
 
 use_highres_aep_for_comparison = True  # If True, the final comparison table and layout titles use the high-resolution AEP. If False, they use the original optimization/surrogate AEP.
 show_layout_plots = False
-show_movement_plots = True
+show_movement_plots = False
 show_development_plots = False
 show_runtime_plot = False
 
@@ -802,7 +802,8 @@ if use_highres_aep_for_comparison:
 # ==================================================
 
 layout_output_dir = base_dir / "Plots" / "PL_layouts"
-layout_output_dir.mkdir(exist_ok=True)
+if show_layout_plots or show_movement_plots:
+    layout_output_dir.mkdir(exist_ok=True)
 
 df_methods = df_summary[df_summary["method"].isin(method_order)].copy()
 

@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 base_dir = Path(__file__).resolve().parent.parent
-csv_dir = base_dir / "Results_CSV_WM_Comparison"
+csv_dir = base_dir / "CSV_WM_Comparison"
 
 
 def latest_csv(pattern):
