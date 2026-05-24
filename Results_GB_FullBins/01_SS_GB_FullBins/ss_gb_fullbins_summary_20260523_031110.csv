@@ -1,0 +1,4 @@
+script,wake_model,seed,method,AEP SS bins [GWh],AEP GB bins [GWh],Improvement over SS layout using GB bins [GWh],runtime_sec,iterations,ss_bin_setup,gb_bin_setup,random_pct
+RunSS_GB_FullBins,NOJ,1,Current Horns Rev,701.8653557500002,701.8653557500002,,0.0,0,wd1deg_ws3-25_step1,wd1deg_ws3-25_step1,10
+RunSS_GB_FullBins,NOJ,1,SS,712.5999260931526,712.5999260931526,0.0,138.59640239994042,0,wd1deg_ws3-25_step1,wd1deg_ws3-25_step1,10
+RunSS_GB_FullBins,NOJ,1,SS--GB,715.2052529546654,715.2052529546654,2.605326861512822,4122.672053399961,200,wd1deg_ws3-25_step1,wd1deg_ws3-25_step1,10

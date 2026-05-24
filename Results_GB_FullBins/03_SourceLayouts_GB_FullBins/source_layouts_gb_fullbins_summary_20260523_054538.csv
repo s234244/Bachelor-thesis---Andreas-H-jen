@@ -1,0 +1,61 @@
+script,source_script,source_opt_bin_label,source_method,layout_method,wake_model,seed,source_highres_AEP [GWh],gb_bin_setup,method,AEP GB bins [GWh],Improvement over source layout using GB bins [GWh],runtime_sec,iterations
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,1,712.5999260931527,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,1,712.5999260931527,wd1deg_ws3-25_step1,SS,712.5999260931527,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,1,712.5999260931527,wd1deg_ws3-25_step1,SS--GB-fullbins,715.2288051106394,2.6288790174867245,6373.765294700046,200
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,2,712.4610690302246,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,2,712.4610690302246,wd1deg_ws3-25_step1,SS,712.4610690302246,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,2,712.4610690302246,wd1deg_ws3-25_step1,SS--GB-fullbins,715.2377726150464,2.776703584821803,6234.185877799988,200
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,3,712.3267720782876,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,3,712.3267720782876,wd1deg_ws3-25_step1,SS,712.3267720782876,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,3,712.3267720782876,wd1deg_ws3-25_step1,SS--GB-fullbins,714.6971919694055,2.3704198911178764,6157.657634900068,200
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,4,712.036728916994,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,4,712.036728916994,wd1deg_ws3-25_step1,SS,712.036728916994,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,4,712.036728916994,wd1deg_ws3-25_step1,SS--GB-fullbins,714.9131606903082,2.876431773314266,6172.491628999938,200
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,5,712.3272656645681,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,5,712.3272656645681,wd1deg_ws3-25_step1,SS,712.3272656645681,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS,SmartStart,NOJ,5,712.3272656645681,wd1deg_ws3-25_step1,SS--GB-fullbins,715.0276756121087,2.7004099475406065,5987.774307399988,200
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,1,714.8891257167484,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,1,714.8891257167484,wd1deg_ws3-25_step1,SS--2S,714.8891257167484,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,1,714.8891257167484,wd1deg_ws3-25_step1,SS--2S--GB-fullbins,715.412441868352,0.5233161516035807,675.531997299986,200
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,2,714.8069940713654,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,2,714.8069940713654,wd1deg_ws3-25_step1,SS--2S,714.8069940713654,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,2,714.8069940713654,wd1deg_ws3-25_step1,SS--2S--GB-fullbins,715.4768538190879,0.6698597477225121,850.9878504999215,200
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,3,714.9942065854406,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,3,714.9942065854406,wd1deg_ws3-25_step1,SS--2S,714.9942065854406,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,3,714.9942065854406,wd1deg_ws3-25_step1,SS--2S--GB-fullbins,715.4296974602025,0.43549087476196746,493.11114689998794,200
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,4,714.6826359487975,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,4,714.6826359487975,wd1deg_ws3-25_step1,SS--2S,714.6826359487975,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,4,714.6826359487975,wd1deg_ws3-25_step1,SS--2S--GB-fullbins,715.2730403107936,0.590404361996093,543.8271275999723,200
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,5,714.8439713195792,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,5,714.8439713195792,wd1deg_ws3-25_step1,SS--2S,714.8439713195792,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsSS,5 deg bins,SS--2S,SS--2S,NOJ,5,714.8439713195792,wd1deg_ws3-25_step1,SS--2S--GB-fullbins,715.1782971465775,0.334325826998338,331.2331607999513,200
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,1,715.1495892124769,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,1,715.1495892124769,wd1deg_ws3-25_step1,RS,715.1495892124769,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,1,715.1495892124769,wd1deg_ws3-25_step1,RS--GB-fullbins,715.4091639949557,0.2595747824788077,1092.3450414999388,200
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,2,714.8628386376877,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,2,714.8628386376877,wd1deg_ws3-25_step1,RS,714.8628386376877,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,2,714.8628386376877,wd1deg_ws3-25_step1,RS--GB-fullbins,715.0520627413837,0.18922410369600584,490.8695121000055,200
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,3,715.2148260994957,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,3,715.2148260994957,wd1deg_ws3-25_step1,RS,715.2148260994957,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,3,715.2148260994957,wd1deg_ws3-25_step1,RS--GB-fullbins,715.6328634422003,0.41803734270467885,1218.9610407000873,200
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,4,715.3067586685179,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,4,715.3067586685179,wd1deg_ws3-25_step1,RS,715.3067586685179,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,4,715.3067586685179,wd1deg_ws3-25_step1,RS--GB-fullbins,715.562653030343,0.25589436182508507,719.9801732000196,200
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,5,715.1210552750379,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,5,715.1210552750379,wd1deg_ws3-25_step1,RS,715.1210552750379,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS,RS,NOJ,5,715.1210552750379,wd1deg_ws3-25_step1,RS--GB-fullbins,715.3241434647069,0.20308818966907438,519.6907088999869,200
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,1,715.2059035295349,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,1,715.2059035295349,wd1deg_ws3-25_step1,RS--2S,715.2059035295349,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,1,715.2059035295349,wd1deg_ws3-25_step1,RS--2S--GB-fullbins,715.3724527171935,0.16654918765857474,388.4145041999873,200
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,2,715.0286888365631,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,2,715.0286888365631,wd1deg_ws3-25_step1,RS--2S,715.0286888365631,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,2,715.0286888365631,wd1deg_ws3-25_step1,RS--2S--GB-fullbins,715.3201572914988,0.2914684549357389,871.1129109000321,200
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,3,715.4938251155713,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,3,715.4938251155713,wd1deg_ws3-25_step1,RS--2S,715.4938251155713,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,3,715.4938251155713,wd1deg_ws3-25_step1,RS--2S--GB-fullbins,715.8134403655721,0.3196152500007656,982.8100222999929,200
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,4,715.5481589882329,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,4,715.5481589882329,wd1deg_ws3-25_step1,RS--2S,715.5481589882329,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,4,715.5481589882329,wd1deg_ws3-25_step1,RS--2S--GB-fullbins,715.6851079736487,0.1369489854157564,410.5638490000274,200
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,5,715.2918760697996,wd1deg_ws3-25_step1,Current Horns Rev,701.8653557500002,,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,5,715.2918760697996,wd1deg_ws3-25_step1,RS--2S,715.2918760697996,0.0,0.0,0
+RunSourceLayouts_GB_FullBins,ResultsRS,5 deg bins,RS--2S,RS--2S,NOJ,5,715.2918760697996,wd1deg_ws3-25_step1,RS--2S--GB-fullbins,715.4694564047309,0.17758033493123548,476.12506660004146,200

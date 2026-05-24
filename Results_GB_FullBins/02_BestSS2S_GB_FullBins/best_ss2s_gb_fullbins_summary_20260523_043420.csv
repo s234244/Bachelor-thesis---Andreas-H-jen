@@ -1,0 +1,4 @@
+script,source_script,source_opt_bin_label,wake_model,seed,method,AEP GB bins [GWh],Improvement over source layout using GB bins [GWh],runtime_sec,iterations,gb_bin_setup
+RunBestSS2S_GB_FullBins,ResultsSS,5 deg bins,NOJ,3,Current Horns Rev,701.8653557500002,,0.0,0,wd1deg_ws3-25_step1
+RunBestSS2S_GB_FullBins,ResultsSS,5 deg bins,NOJ,3,SS--2S,714.9942065854406,0.0,0.0,0,wd1deg_ws3-25_step1
+RunBestSS2S_GB_FullBins,ResultsSS,5 deg bins,NOJ,3,SS--2S--GB-fullbins,715.4296974602025,0.43549087476196746,638.3391807998996,200,wd1deg_ws3-25_step1

@@ -1,0 +1,6 @@
+run_name,script,wake_model,seed,wd_step_deg,n_wd,ws,random_pct,iteration,phase,AEP [GWh],elapsed_sec
+SS_seed1,ResultsSS,NOJ,1,5,72,9.6,10,0,SmartStart,72.12193614866618,138.19963420007844
+SS_seed2,ResultsSS,NOJ,2,5,72,9.6,10,0,SmartStart,72.104949528579,129.65168669994455
+SS_seed3,ResultsSS,NOJ,3,5,72,9.6,10,0,SmartStart,72.0677044061938,128.88095849996898
+SS_seed4,ResultsSS,NOJ,4,5,72,9.6,10,0,SmartStart,72.03257352447444,111.0635155000491
+SS_seed5,ResultsSS,NOJ,5,5,72,9.6,10,0,SmartStart,72.09283859113029,116.65907689998858
